@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+
+</head>
+
+
+<body>
+
+
+    <center>
+        <div class="grid-container">
+            <div class="grid-item">
+                <button id="bt" onclick="biu('first', 'bold')" type="button">Bold</button>
+                <button id="bt" onclick="biu('first', 'italic')" type="button">Italic</button>
+                <button id="bt" onclick="biu('first', 'underline')" type="button">Underline</button>
+                <input id="text-size" type="number" placeholder="Text Size" onchange="changeSize('first', this);">
+                <input id="Text-color" type="color" onchange="changeBackground('first', this);" />
+
+            </div>
+            <div class="grid-item" id="first">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+            <div class="grid-item">
+                <button id="bt" onclick="biu('second', 'bold')" type="button">Bold</button>
+                <button id="bt" onclick="biu('second', 'italic')" type="button">Italic</button>
+                <button id="bt" onclick="biu('second', 'underline')" type="button">Underline</button>
+                <input id="text-size" type="number" placeholder="Text Size" onchange="changeSize('second', this);">
+                <input id="Text-color" type="color" onchange="changeBackground('second', this);" />
+            </div>
+            <div class="grid-item" id="second">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            <div class="grid-item">
+                <button id="bt" onclick="biu('third', 'bold')" type="button">Bold</button>
+                <button id="bt" onclick="biu('third', 'italic')" type="button">Italic</button>
+                <button id="bt" onclick="biu('third', 'underline')" type="button">Underline</button>
+                <input id="text-size" type="number" placeholder="Text Size" onchange="changeSize('third', this);">
+                <input id="Text-color" type="color" onchange="changeBackground('third', this);" />
+            </div>
+            <div class="grid-item" id="third">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            <div class="grid-item">
+                <button id="bt" onclick="biu('fourth', 'bold')" type="button">Bold</button>
+                <button id="bt" onclick="biu('fourth', 'italic')" type="button">Italic</button>
+                <button id="bt" onclick="biu('fourth', 'underline')" type="button">Underline</button>
+                <input id="text-size" type="number" placeholder="Text Size" onchange="changeSize('fourth', this);">
+                <input id="Text-color" type="color" onchange="changeBackground('fourth',this);" />
+            </div>
+            <div class="grid-item" id="fourth">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+        </div>
+        <script src="index.js"></script>
+
+
+    </center>
+</body>
+
+</html>
